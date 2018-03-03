@@ -1,0 +1,82 @@
+doctype html
+html(lang="en")
+  head
+    title Por la libre
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(http-equiv="x-ua-compatible" content="ie=edge")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.min.css")
+    link(rel="stylesheet" href="/css/style.css")
+    
+  body
+    //-
+      Main navigation
+    header
+      //-
+        navbar
+      nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.scrolling-navbar
+        div.container
+          //-
+            navbar brand
+          a.navbar-brand(href="#"): img.navbar-brand.rounded-circle(src="https://pbs.twimg.com/profile_images/920040627815043072/BYVwjhLA_400x400.jpg" alt="logo" width="40px")
+          //-
+            Collapse button
+          button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+            span.navbar-toggler-icon
+          //-
+            Collapsible content
+          div#navbarSupportedContent.collapse.navbar-collapse
+            //-- 
+              Links
+            ul.navbar-nav.mr-auto.smooth-scroll
+              li.nav-item
+                a.nav-link(href="#intro") Inicio
+              li.nav-item
+                a.nav-link(href="#news") Recolección de firmas
+              li.nav-item
+                a.nav-link(href="#contact") Contacto
+            //-
+              Social icons
+            ul.navbar-nav.nav-flex-icons
+              li.nav-item
+                a.nav-link(href="https://es-la.facebook.com/psmendiguchia/"): i.fa.fa-facebook
+              li.nav-item
+                a.nav-link(href="https://twitter.com/PSMendiguchia/"): i.fa.fa-twitter
+              //-
+                li.nav-item
+                  a.nav-link(href="https://instagram.com"): i.fa.fa-instagram
+                
+      //-
+        Mask
+      div#intro.view.hm-black-strong
+        div.container-fluid.full-bg-img.d-flex.align-items-center.justify-content-center
+          div.row.d-flex.justify-content-center
+            div.col-md-10.text-center
+              //-
+                Heading
+              h2.display-3.font-bold.white-text.mb-2 ¡Vámonos por la libre!
+              //-
+                Divider
+              hr.hr-light
+              //-
+                Description
+              h4.white-text.my-4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequuntur.
+              button.btn.btn-outline-warning(type="button") Apóyanos con tu donación
+                i.fa.fa-flash.ml-2
+
+    block content
+    
+    //-
+      Scripts, JQuery
+    script(type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js")
+    //-
+      Bootstrap tooltips
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js")
+    //-
+      Bootstrap core JavaScript
+    script(type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js")
+    //-
+      MDB core JavaScript
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/js/mdb.min.js")
