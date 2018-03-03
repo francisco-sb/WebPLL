@@ -13,6 +13,7 @@ app.get("/", function(request, response) {
 });
 
 //app.listen(8080);
-server.listen(port, function()) {
+/*server.listen(port, function()) {
   console.log('listening on *:' + port);
-}
+}*/
+server.listen(port, process.env.IP);
